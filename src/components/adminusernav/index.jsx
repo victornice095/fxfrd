@@ -10,7 +10,7 @@ const AdminUserNav = ({ user }) => {
           <NavLink
             className="admin-link"
             activeclassname="active"
-            to={`/admin/user/${user._id}/deposits`}
+            to={`/admin/user/${user._id}/deposits`} 
           >
             Deposits
           </NavLink>
