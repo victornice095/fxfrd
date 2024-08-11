@@ -1,0 +1,81 @@
+.admin-kyc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.admin-kyc > h4 {
+  width: 100%;
+  text-align: center;
+  color: #0095eb;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.admin-kyc > div > h4 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: darkblue;
+  font-family: "Lato", sans-serif;
+}
+.admin-kyc > div > h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+.admin-kyc-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.admin-kyc > div > img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .admin-kyc {
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .admin-kyc > h4 {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .admin-kyc > div > h4 {
+    font-size: 13px;
+    font-weight: 500;
+   
+  }
+  .admin-kyc > div > h6 {
+    font-size: 12px;
+  }
+  .admin-kyc-img {
+    width: 100%;
+    display: flex;
+    margin: 10px 0px;
+  }
+  .admin-kyc > div > img {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .admin-kyc > div > img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+}
